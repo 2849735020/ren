@@ -1,5 +1,7 @@
 package org.ssh.pojo;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -27,7 +29,10 @@ public class Dept {
 	public String toString() {
 		return "Dept [did=" + did + ", dname=" + dname + "]";
 	}
-	
-	
+
+	public List name() {
+		return null;
+		
+	}
 	
 }
